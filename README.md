@@ -1,5 +1,19 @@
 # CIS 5660 HW03 Procedural Buildings
 
+## Concept Art Inspiration
+I used this image loosely to inspire my building, particularly the patio and windows.
+![inspo](https://github.com/user-attachments/assets/47c3aac5-4f1e-42cf-a708-4090d27a4bc8)
+
+## My Procedural Building
+
+
+https://github.com/user-attachments/assets/38aa49cb-4ded-4b05-af0c-2f9e947090ad
+
+
+For my building details, I created my own window, door, and patio models in Houdini. I started with a grid, extracting vertical and horizontal lines using delete, then using bound to create the models. For my window Null control node, I had the parameters to drive window width and height, as well as a parameter to control the number of window panes. For my door Null control node, I had the parameters to drive door width and height, as well as a parameter to control the number doors(single vs double doors, etc.). For my patio Null control node, I had the parameters to drive patio width and height, and a parameter to control the number of patio bars. 
+
+For the building's pillars, border, and supports, I followed the rest of the tutorial.
+
 ## Project Overview
 In this homework you’ll gain more experience with tool creation and loops. The core of this homework will be following a Procedural House tutorial to create a multi-floor building generator. The tutorial is linked here: 
 https://www.youtube.com/watch?v=uIe97023sDk&t=979s&ab_channel=SimonHoudini 
@@ -12,7 +26,11 @@ The tutorial requires some nodes from SideFX Labs. If you haven’t already inst
 Before you begin on this project, skim through the tutorial and then pick a building type/style you’d like to emulate (either from photos or concept art). You should watch the entirety of the tutorial  before committing to a style so you can pick something that is manageable and will be achievable using the techniques in the tutorial.  
 Of course, you’re welcome to adapt the setup to support additional logic/features to match your style, and particularly complex additions could merit extra credit :) On the other hand, if you’re newer to Houdini and want to stick relatively close to the tutorial, that’s okay too. Just be sure to think through what changes your chosen buildings will require (additional assets? different placement logic?) before diving into the project so you don’t bite off more than you can chew.  
 Make sure the include the reference you select in your README, and don’t forget to credit your sources.  
-Here are a few examples of possible building styles that could be a decent fit for inspiration:
+Here are a few examples of possible building style
+
+Uploading Screen Recording 2024-10-22 at 6.28.07 PM.mov…
+
+s that could be a decent fit for inspiration:
 CIS 5660 HW03 Procedural Building 1 
 https://www.behance.net/gallery/23773965/ISOBuilding-concept-art 
 
